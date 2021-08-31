@@ -26,8 +26,7 @@ void draw() {
         } else {
           fill(0);
         }
-        
-        noStroke();
+
         rect(width/gridSize*j, height/gridSize*i, width/gridSize, height/gridSize); // x, y, xSize, ySize
      }
   }
